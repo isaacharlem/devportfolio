@@ -55,9 +55,10 @@ export const siteConfig = {
       title: "AI Engineer (Contract)",
       dateRange: "July 2025 - Present",
       bullets: [
-        "Decreased hosting costs by 80% by serverlessly deploying Large Language Models (LLMs) on Google Cloud Run.",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Decreased hosting costs by 80% by serverlessly deploying autoscaling Large Language Model instances on Google Cloud Run.",
+        "Quantized and finetuned open-source Large Language Models for medical use-cases. Enabled deployment on single L4 GPUs.",
+        "Built end-to-end Large Language Model evaluation tool, complete with Streamlit UI.",
+        "Worked on a team of 20 developers. Presented projects to technical and non-technical stakeholders.",
       ],
     },
     {
@@ -65,9 +66,9 @@ export const siteConfig = {
       title: "Product Software Engineering Intern",
       dateRange: "June 2024 - September 2024",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Designed AI tool for search quality assurance; tool adopted as primary method for assessing search precision for billion-dollar product.",
+        "Created process for synthetic dataset generation for Large Language Model finetuning. Allowed developers to quickly generate reliable training, testing, and validation datasets.",
+        "Finetuned and deployed variations of Google Gemini and Gemma 2 on Vertex AI.",
       ],
     },
     {
@@ -75,9 +76,9 @@ export const siteConfig = {
       title: "Data Scientist",
       dateRange: "August 2023 - October 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "",
+        "",
+        "",
       ],
     },
     {
@@ -85,9 +86,9 @@ export const siteConfig = {
       title: "Data Science Intern",
       dateRange: "July 2023 - August 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "",
+        "",
+        "",
       ],
     },
   ],
@@ -97,9 +98,9 @@ export const siteConfig = {
       title: "Returning AI Research Intern",
       dateRange: "January 2025 - March 2025",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "",
+        "",
+        "",
       ],
     },
     {
@@ -107,9 +108,9 @@ export const siteConfig = {
       title: "Machine Learning Intern",
       dateRange: "September 2024 - November 2024",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "",
+        "",
+        "",
       ],
     },
     {
@@ -117,9 +118,9 @@ export const siteConfig = {
       title: "AI Research Intern",
       dateRange: "March 2024 - June 2024",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "",
+        "",
+        "",
       ],
     },
   ],
@@ -129,9 +130,9 @@ export const siteConfig = {
       title: "Teaching Assistant",
       dateRange: "March 2024 - June 2025",
       bullets: [
-        "Led example initiative with measurable impact",
-        "Managed team of X members",
-        "Achieved specific leadership outcome",
+        "",
+        "",
+        "",
       ],
     },
     {
@@ -139,9 +140,9 @@ export const siteConfig = {
       title: "Course Grader",
       dateRange: "September 2023 - March 2024",
       bullets: [
-        "Led example initiative with measurable impact",
-        "Managed team of X members",
-        "Achieved specific leadership outcome",
+        "",
+        "",
+        "",
       ],
     },
   ],
