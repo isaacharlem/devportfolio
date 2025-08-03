@@ -34,11 +34,11 @@ export const siteConfig = {
       skills: ["React", "Node.js", "AWS"],
     },
   ],
-  experience: [
+  industryExperience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Wolters Kluwer | UpToDate",
+      title: "AI Engineer (Contract)",
+      dateRange: "July 2025 - Present",
       bullets: [
         "Led development of microservices architecture serving 1M+ users",
         "Reduced API response times by 40% through optimization",
@@ -46,9 +46,19 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Wolters Kluwer | UpToDate",
+      title: "Product Software Engineering Intern",
+      dateRange: "June 2024 - September 2024",
+      bullets: [
+        "Developed responsive web applications for 20+ clients",
+        "Improved site performance scores by 35% on average",
+        "Introduced modern JavaScript frameworks to legacy codebases",
+      ],
+    },
+    {
+      company: "Consultant.AI",
+      title: "Data Scientist",
+      dateRange: "August 2023 - October 2023",
       bullets: [
         "Built and launched MVP product from scratch using React and Node.js",
         "Implemented CI/CD pipeline reducing deployment time by 60%",
@@ -56,35 +66,69 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Insait.IO",
+      title: "Data Science Intern",
+      dateRange: "July 2023 - August 2023",
+      bullets: [
+        "Built and launched MVP product from scratch using React and Node.js",
+        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Collaborated with product team to define technical requirements",
+      ],
+    },
+  ],
+  researchExperience: [
+    {
+      company: "Argonne National Laboratory",
+      title: "Returning AI Research Intern",
+      dateRange: "January 2025 - March 2025",
+      bullets: [
+        "Built and launched MVP product from scratch using React and Node.js",
+        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Collaborated with product team to define technical requirements",
+      ],
+    },
+    {
+      company: "Fermi National Accelerator Laboratory",
+      title: "Machine Learning Intern",
+      dateRange: "September 2024 - November 2024",
       bullets: [
         "Developed responsive web applications for 20+ clients",
         "Improved site performance scores by 35% on average",
         "Introduced modern JavaScript frameworks to legacy codebases",
       ],
     },
+    {
+      company: "Argonne National Laboratory",
+      title: "AI Research Intern",
+      dateRange: "March 2024 - May 2024",
+      bullets: [
+        "Built and launched MVP product from scratch using React and Node.js",
+        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Collaborated with product team to define technical requirements",
+      ],
+    },
+  ],
+  leadership: [
+    {
+      company: "The University of Chicago",
+      title: "Example Leadership Role",
+      dateRange: "2021 - 2025",
+      bullets: [
+        "Led example initiative with measurable impact",
+        "Managed team of X members",
+        "Achieved specific leadership outcome",
+      ],
+    },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "The University of Chicago",
+      degree: "Bachelor of Arts in Data Science",
+      dateRange: "2021 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated Cum Laude with Departmental Honors with 3.78 GPA",
+        "Dean's List in 2021",
+        "University Scholar Award recipient",
       ],
     },
   ],
