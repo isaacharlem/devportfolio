@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Isaac Harlem",
   title: "AI Engineer & Data Scientist",
   description: "Portfolio website of Isaac Harlem",
-  accentColor: "#1d4ed8",
+  accentColor: "#1337d6",
   profilePhoto: "src/images/headshot.jpg",
   social: {
     email: "isaacharlem@uchicago.edu",
@@ -10,29 +10,29 @@ export const siteConfig = {
     github: "https://github.com/isaacharlem",
   },
   aboutMe:
-    "I'm an AI engineer and data scientist who recently graduated from the University of Chicago with a passion for building practical, intelligent AI systems that actually work in production settings. I’m especially drawn to large language models, agent-based architectures, and conducting AI research usable in real-world industry settings. I’ve worked on everything from fine-tuning and deploying LLMs at scale to designing modern retrieval pipelines and AI agents that interact with tools, code, and people. I’m particularly interested in the edge cases... where models fail, where embeddings break down, and where a clever system design can make all the difference. I enjoy solving hard problems at the edge of machine learning, data science, and software engineering.",
+    "I'm a passionate data scientist currently working as an AI Engineer (contract) at Wolters Kluwer. I recently graduated from the University of Chicago with a passion for building practical, intelligent AI systems that actually work in production settings. I’m especially drawn to large language models, agent-based architectures, and AI research usable in industry settings. I’ve worked on everything from fine-tuning and deploying LLMs at scale to designing modern retrieval pipelines and AI agents that interact with tools, code, and people. I’m particularly interested in the edge cases... where models fail, where embeddings break down, and where a clever system design can make all the difference. I enjoy solving hard problems at the edge of machine learning, data science, and software engineering.",
   skills: ["Python", "SQL", "Generative AI", "Large Language Models", "AI Agents", "Retrieval Augmented Generation", "Deep Learning", "Natural Language Processing", "Data Science", "Machine Learning", "Data Engineering", "Data Analysis", "Software Development"],
   projects: [
     {
       name: "AI Portfolio Chatbot",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "Built an AI end-to-end portfolio chatbot from scratch using RAG and hybrid vector search, enabling interactive conversations about my experience and projects. Integrated custom embeddings and retrieval pipelines to showcase real-time, LLM-powered Q&A. Click here to test it out!",
       link: "https://portfolio-frontend-s7al.onrender.com/",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Python", "Node.js", "LLMs", "RAG", "Hybrid Vector Search", "OCR"],
     },
     {
-      name: "Semantic Data Analysis of Political Subreddits from 2010 to 2021",
+      name: "Semantic Data Analysis of Political Subreddits from 2011 to 2022",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Conducted a computational semantic analysis with two peers of 44,000 Reddit articles from r/liberal and r/conservative using semantic embeddings, BERTopic, and entropy metrics to measure the rise of political echo chambers from 2011–2022. Found increasing intra-group semantic convergence and decreasing topic diversity varying in degree in both subreddits, revealing asymmetric patterns of ideological insularity over time. Click here to read the project paper.",
+      link: "https://docs.google.com/document/d/1A9QuVhkqTljVuGG2OwOvWKOH4HVRNlJmdW51kNQtPxI/edit?usp=sharing",
+      skills: ["Python", "NLP", "Semantic Embeddings", "BERTopic", "Data Analysis"],
     },
     {
       name: "Examining the Cognitive Significance of Reasoning Large Language Models",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Conducted a comparative evaluation of instruction-tuned LLMs with and without chain-of-thought reasoning (DeepSeek-R1 vs. Qwen), using self-consistency metrics, semantic embedding similarity, BLEU, and ROUGE-L scores. Demonstrated that CoT fine-tuning improves functional reasoning accuracy while standard instruction-tuning favors linguistic fluency, highlighting distinct performance trade-offs at the system level. Click here to read the project paper.",
+      link: "https://docs.google.com/document/d/12PLWEpi0C0p2gn16K3qw14xRaSI8UwGNg8CaUdtHy9Q/edit?usp=sharing",
+      skills: ["Python", "LLM Evaluation", "Reasoning LLMs", "Semantic Embeddings", "BLEU / ROUGE Metrics", "Self-Consistency Scoring"],
     },
     {
       name: "AI Lab Policy Agent (Argonne)",
@@ -125,7 +125,7 @@ export const siteConfig = {
   ],
   leadership: [
     {
-      company: "The University of Chicago Department of Computer Science",
+      company: "University of Chicago Department of Computer Science",
       title: "Teaching Assistant",
       dateRange: "March 2024 - June 2025",
       bullets: [
@@ -135,7 +135,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "The University of Chicago Department of Computer Science",
+      company: "University of Chicago Department of Computer Science",
       title: "Course Grader",
       dateRange: "September 2023 - March 2024",
       bullets: [
@@ -147,7 +147,7 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "The University of Chicago",
+      school: "University of Chicago",
       degree: "Bachelor of Arts in Data Science",
       dateRange: "2021 - 2025",
       achievements: [
