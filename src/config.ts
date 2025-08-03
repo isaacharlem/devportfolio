@@ -14,21 +14,35 @@ export const siteConfig = {
   skills: ["Python", "SQL", "Generative AI", "Large Language Models", "AI Agents", "Retrieval Augmented Generation", "Deep Learning", "Natural Language Processing", "Data Science", "Machine Learning", "Data Engineering", "Data Analysis", "Software Development"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "AI Portfolio Chatbot",
       description:
         "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
+      link: "https://portfolio-frontend-s7al.onrender.com/",
       skills: ["React", "Node.js", "AWS"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Semantic Data Analysis of Political Subreddits from 2010 to 2021",
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
       link: "https://fullstackextensions.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
     },
     {
-      name: "ExtensionKit",
+      name: "Examining the Cognitive Significance of Reasoning Large Language Models",
+      description:
+        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "AI Lab Policy Agent (Argonne)",
+      description:
+        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "Classifying Dog Breed Images via a Convolutional Neural Network",
       description:
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
