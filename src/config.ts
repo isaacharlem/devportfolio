@@ -3,14 +3,15 @@ export const siteConfig = {
   title: "AI Engineer & Data Scientist",
   description: "Portfolio website of Isaac Harlem",
   accentColor: "#1d4ed8",
+  profilePhoto: "src/images/headshot.jpg",
   social: {
     email: "isaacharlem@uchicago.edu",
     linkedin: "https://www.linkedin.com/in/isaac-harlem/",
     github: "https://github.com/isaacharlem",
   },
   aboutMe:
-    "I'm an AI engineer and data scientist who recently graduated from the University of Chicago with a passion for building practical, intelligent AI systems that actually work in production settings. I’m especially drawn to large language models, agent-based architectures, and conducting AI research usable in real-world business settings. I’ve worked on everything from fine-tuning and deploying LLMs at scale to designing modern retrieval pipelines and AI agents that interact with tools, code, and people. I’m especially interested in the edge cases... where models fail, where embeddings break down, and where a clever system design can make all the difference. I enjoy asking the important questions and solving hard problems at the edge of machine learning, data science, and software engineering.",
-  skills: ["Python", "SQL", "Generative AI", "Large Language Models", "Data Science", "Machine Learning", "Data Engineering", "Natural Language Processing"],
+    "I'm an AI engineer and data scientist who recently graduated from the University of Chicago with a passion for building practical, intelligent AI systems that actually work in production settings. I’m especially drawn to large language models, agent-based architectures, and conducting AI research usable in real-world industry settings. I’ve worked on everything from fine-tuning and deploying LLMs at scale to designing modern retrieval pipelines and AI agents that interact with tools, code, and people. I’m particularly interested in the edge cases... where models fail, where embeddings break down, and where a clever system design can make all the difference. I enjoy solving hard problems at the edge of machine learning, data science, and software engineering.",
+  skills: ["Python", "SQL", "Generative AI", "Large Language Models", "AI Agents", "Retrieval Augmented Generation", "Deep Learning", "Natural Language Processing", "Data Science", "Machine Learning", "Data Engineering", "Data Analysis", "Software Development"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -100,7 +101,7 @@ export const siteConfig = {
     {
       company: "Argonne National Laboratory",
       title: "AI Research Intern",
-      dateRange: "March 2024 - May 2024",
+      dateRange: "March 2024 - June 2024",
       bullets: [
         "Built and launched MVP product from scratch using React and Node.js",
         "Implemented CI/CD pipeline reducing deployment time by 60%",
@@ -110,9 +111,19 @@ export const siteConfig = {
   ],
   leadership: [
     {
-      company: "The University of Chicago",
-      title: "Example Leadership Role",
-      dateRange: "2021 - 2025",
+      company: "The University of Chicago Department of Computer Science",
+      title: "Teaching Assistant",
+      dateRange: "March 2024 - June 2025",
+      bullets: [
+        "Led example initiative with measurable impact",
+        "Managed team of X members",
+        "Achieved specific leadership outcome",
+      ],
+    },
+    {
+      company: "The University of Chicago Department of Computer Science",
+      title: "Course Grader",
+      dateRange: "September 2023 - March 2024",
       bullets: [
         "Led example initiative with measurable impact",
         "Managed team of X members",
