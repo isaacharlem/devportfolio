@@ -1,17 +1,16 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Isaac Harlem",
+  title: "AI Engineer & Data Scientist",
+  description: "Portfolio website of Isaac Harlem",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "isaacharlem@uchicago.edu",
+    linkedin: "https://www.linkedin.com/in/isaac-harlem/",
+    github: "https://github.com/isaacharlem",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm an AI engineer and data scientist who recently graduated from the University of Chicago with a passion for building practical, intelligent AI systems that actually work in production settings. I’m especially drawn to large language models, agent-based architectures, and conducting AI research usable in real-world business settings. I’ve worked on everything from fine-tuning and deploying LLMs at scale to designing modern retrieval pipelines and AI agents that interact with tools, code, and people. I’m especially interested in the edge cases... where models fail, where embeddings break down, and where a clever system design can make all the difference. I enjoy asking the important questions and solving hard problems at the edge of machine learning, data science, and software engineering.",
+  skills: ["Python", "SQL", "Generative AI", "Large Language Models", "Data Science", "Machine Learning", "Data Engineering", "Natural Language Processing"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
