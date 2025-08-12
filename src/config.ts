@@ -3,7 +3,8 @@ export const siteConfig = {
   title: "AI Engineer & Data Scientist",
   description: "Portfolio website of Isaac Harlem",
   accentColor: "#1337d6",
-  profilePhoto: "src/images/headshot.jpg",
+  // Use a public path so the image is served statically
+  profilePhoto: "/images/headshot.jpg",
   social: {
     email: "isaacharlem@uchicago.edu",
     linkedin: "https://www.linkedin.com/in/isaac-harlem/",
@@ -25,6 +26,7 @@ export const siteConfig = {
       description:
         "Conducted a computational semantic analysis with two peers of 44,000 Reddit articles from r/liberal and r/conservative using semantic embeddings, BERTopic, and entropy metrics to measure the rise of political echo chambers from 2011–2022. Found increasing intra-group semantic convergence and decreasing topic diversity varying in degree in both subreddits, revealing asymmetric patterns of ideological insularity over time. Click here to read the project paper.",
       link: "https://docs.google.com/document/d/1A9QuVhkqTljVuGG2OwOvWKOH4HVRNlJmdW51kNQtPxI/edit?usp=sharing",
+      github: "https://github.com/isaacharlem/reddit_ideology",
       skills: ["Python", "NLP", "Semantic Embeddings", "BERTopic", "Data Analysis"],
     },
     {
@@ -32,6 +34,7 @@ export const siteConfig = {
       description:
         "Conducted a comparative evaluation of instruction-tuned LLMs with and without chain-of-thought reasoning (DeepSeek-R1 vs. Qwen), using self-consistency metrics, semantic embedding similarity, BLEU, and ROUGE-L scores. Demonstrated that CoT fine-tuning improves functional reasoning accuracy while standard instruction-tuning favors linguistic fluency, highlighting distinct performance trade-offs at the system level. The project paper was ranked #1 by the Head of the Cognitive Science Department among 70+ student submissions. Click here to read the project paper.",
       link: "https://docs.google.com/document/d/12PLWEpi0C0p2gn16K3qw14xRaSI8UwGNg8CaUdtHy9Q/edit?usp=sharing",
+      github: "https://github.com/isaacharlem/llm-comparative-analysis",
       skills: ["Python", "LLM Evaluation", "Reasoning LLMs", "Semantic Embeddings", "BLEU / ROUGE Metrics", "Self-Consistency Scoring"],
     },
     {
@@ -106,6 +109,7 @@ export const siteConfig = {
       company: "Fermi National Accelerator Laboratory",
       title: "Machine Learning Intern",
       dateRange: "September 2024 - November 2024",
+      github: "https://github.com/dsi-clinic/2023-Autumn-Clinic-Fermi-CaloDiffusionPaper",
       bullets: [
         "Optimized Variational Autoencoder using PyTorch for latent diffusion models, achieving a 50% increase in simulation speed.",
         "Built reproducible ML pipelines for particle physics research.",
