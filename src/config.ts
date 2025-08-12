@@ -76,9 +76,9 @@ export const siteConfig = {
       title: "Data Scientist",
       dateRange: "August 2023 - October 2023",
       bullets: [
-        "",
-        "",
-        "",
+        "Engineered GPT-4-powered AI Jira Agent using Python and LangChain, automating project management workflows and reducing task tracking time.",
+        "Scaled proof-of-concept into production-grade AI product, directly enabling the founding of Consultant.AI by Insait.io's CEO.",
+        "Led Agile development for a 5-person engineering team, delivering MVP to support investor outreach.",
       ],
     },
     {
@@ -86,9 +86,8 @@ export const siteConfig = {
       title: "Data Science Intern",
       dateRange: "July 2023 - August 2023",
       bullets: [
-        "",
-        "",
-        "",
+        "Developed AI-powered workflow automation tools leveraging GPT-4 and Python, enhancing task allocation efficiency for 30-person team.",
+        "Collaborated with CEO and CTO design internal onboarding chatbot, streamlining new hire training processes.",
       ],
     },
   ],
@@ -98,9 +97,9 @@ export const siteConfig = {
       title: "Returning AI Research Intern",
       dateRange: "January 2025 - March 2025",
       bullets: [
-        "",
-        "",
-        "",
+        "Enhanced AI agent architecture with hybrid embedding search and context-aware text chunking, improving retrieval precision by 30% and latency by 25% for RAG from 2000 document database.",
+        "Designed benchmarking dataset and program for evaluating agent performance, allowing for comprehensive analysis and optimization.",
+        "Integrated web search APIs for real-time information retrieval, improving real-time information retrieval accuracy.",
       ],
     },
     {
@@ -108,9 +107,8 @@ export const siteConfig = {
       title: "Machine Learning Intern",
       dateRange: "September 2024 - November 2024",
       bullets: [
-        "",
-        "",
-        "",
+        "Optimized Variational Autoencoder using PyTorch for latent diffusion models, achieving a 50% increase in simulation speed.",
+        "Built reproducible ML pipelines for particle physics research.",
       ],
     },
     {
@@ -118,9 +116,9 @@ export const siteConfig = {
       title: "AI Research Intern",
       dateRange: "March 2024 - June 2024",
       bullets: [
-        "",
-        "",
-        "",
+        "Developed local AI agent in Python with LangChain and Ollama, integrating Milvus vector store and Neo4j graph DB for scalable knowledge retrieval.",
+        "Created computer vision-based document ingestion pipeline for unstructured PDF documents, automating data extraction and storage.",
+        "Finetuned and quantized Llama models for 50% improved latency on local devices.",
       ],
     },
   ],
@@ -130,9 +128,9 @@ export const siteConfig = {
       title: "Teaching Assistant",
       dateRange: "March 2024 - June 2025",
       bullets: [
-        "",
-        "",
-        "",
+        "Led and created hands-on coding labs and debugging workshops for 200+ students in Python, SQL, and HTML in Data Science courses.",
+        "Designed and graded 1000+ data engineering, machine learning, and algorithm assignments, improving student mastery of technical concepts.",
+        "Provided individualized academic mentoring in office hours.",
       ],
     },
     {
@@ -140,9 +138,9 @@ export const siteConfig = {
       title: "Course Grader",
       dateRange: "September 2023 - March 2024",
       bullets: [
-        "",
-        "",
-        "",
+        "Graded programming and math assignments in Python and SQL on topics in machine learning and data analysis in alignment with course objectives.",
+        "Collaborated with faculty to design grading rubrics and automated assessment scripts, improving grading consistency and turnaround time.",
+        "Delivered detailed written feedback to students, allowing for targeted skill development in computational problem-solving.",
       ],
     },
   ],
