@@ -2,7 +2,9 @@
 import { siteConfig } from "../config";
 
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
-const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
+const hasIndustryExperience = siteConfig.industryExperience && siteConfig.industryExperience.length > 0;
+const hasResearchExperience = siteConfig.researchExperience && siteConfig.researchExperience.length > 0;
+const hasLeadership = siteConfig.leadership && siteConfig.leadership.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 ---
 
@@ -33,13 +35,37 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         )
       }
       {
-        hasExperience && (
+        hasIndustryExperience && (
           <li>
             <a
-              href="#experience"
+              href="#industry-experience"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Experience
+              Industry Experience
+            </a>
+          </li>
+        )
+      }
+      {
+        hasResearchExperience && (
+          <li>
+            <a
+              href="#research-experience"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Research Experience
+            </a>
+          </li>
+        )
+      }
+      {
+        hasLeadership && (
+          <li>
+            <a
+              href="#leadership"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Leadership
             </a>
           </li>
         )
