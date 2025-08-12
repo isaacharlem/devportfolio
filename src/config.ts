@@ -19,6 +19,7 @@ export const siteConfig = {
       description:
         "Built an AI end-to-end portfolio chatbot from scratch using RAG and hybrid vector search, enabling interactive conversations about my experience and projects. Integrated custom embeddings and retrieval pipelines to showcase real-time, LLM-powered Q&A. Click here to test it out!",
       link: "https://portfolio-frontend-s7al.onrender.com/",
+      linkType: "app",
       skills: ["Python", "Node.js", "LLMs", "RAG", "Hybrid Vector Search", "OCR"],
     },
     {
@@ -42,6 +43,7 @@ export const siteConfig = {
       description:
         "Developed a graph-based document retrieval system at Argonne National Lab using open-source LLMs to navigate government policy documents under strict data privacy constraints. Led the design and implementation of query augmentation, a hybrid retrieval pipeline (semantic + keyword), an agentic interface, and an LLM-assisted document reranking and evaluation system. Project won \"Best in Clinic\" award from the UChicago Data Science Institute out of 20 project submissions in 2024. Click here to watch technical presentation from Phase 1 of the project (June 2024).",
       link: "https://www.linkedin.com/posts/dsi-uchicago_data-science-clinic-students-vincent-chirio-ugcPost-7224131834018680832-V7NB?utm_source=share&utm_medium=member_desktop&rcm=ACoAADLGiiYB407uCLjYJhjS3f35-AijbsSW4XI",
+      linkType: "video",
       skills: ["Python", "Local LLMs", "RAG", "LangChain", "Neo4j", "Milvus", "Data Privacy", "Hybrid Index"],
     },
     {
