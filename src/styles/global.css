@@ -3,3 +3,14 @@
 body {
   font-family: 'IBM Plex Mono', monospace;
 }
+
+/* Scale up all rem-based text and spacing */
+:root {
+  font-size: 18px; /* up from Tailwind default 16px */
+}
+
+@media (min-width: 1024px) {
+  :root {
+    font-size: 20px; /* provide a bit more size on large screens */
+  }
+}
