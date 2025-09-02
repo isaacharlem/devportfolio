@@ -57,13 +57,13 @@ export const siteConfig = {
   industryExperience: [
     {
       company: "Wolters Kluwer | UpToDate",
-      title: "AI Engineer (Contract)",
+      title: "AI Engineering Intern",
       dateRange: "July 2025 - Present",
       bullets: [
-        "Decreased hosting costs by 80% by serverlessly deploying autoscaling Large Language Model instances on Google Cloud Run.",
+        "Implemented serverless hosting method for deploying LLMs, allowing for reduced hosting costs and instance autoscaling on Google Cloud Run GPU resources.",
         "Quantized and finetuned open-source Large Language Models for medical use-cases. Enabled deployment on single L4 GPUs.",
         "Built end-to-end Large Language Model evaluation tool, complete with Streamlit UI.",
-        "Worked on a team of 20 developers. Presented projects to technical and non-technical stakeholders.",
+        "Worked on a team of ~15 developers. Presented projects to technical and non-technical stakeholders.",
       ],
     },
     {
@@ -71,8 +71,8 @@ export const siteConfig = {
       title: "Product Software Engineering Intern",
       dateRange: "June 2024 - September 2024",
       bullets: [
-        "Designed AI tool for search quality assurance; tool adopted as primary method for assessing search precision for billion-dollar product.",
-        "Created process for synthetic dataset generation for Large Language Model finetuning. Allowed developers to quickly generate reliable training, testing, and validation datasets.",
+        "Designed AI tool for search quality assurance; tool adopted as a main method for assessing retrieval performance for medical patient education product.",
+        "Created process for synthetic dataset generation for using Large Language Models. Allowed developers to quickly generate reliable training, testing, and validation datasets.",
         "Finetuned and deployed variations of Google Gemini and Gemma 2 on Vertex AI.",
       ],
     },
@@ -157,7 +157,6 @@ export const siteConfig = {
       dateRange: "2021 - 2025",
       achievements: [
         "Graduated Cum Laude with Departmental Honors with 3.78 GPA",
-        "Dean's List in 2021",
         "University Scholar Award recipient",
       ],
     },
