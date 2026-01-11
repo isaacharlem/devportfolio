@@ -11,7 +11,7 @@ export const siteConfig = {
     github: "https://github.com/isaacharlem",
   },
   aboutMe:
-    "I'm a passionate data scientist currently working as an AI Engineer (contract) at Wolters Kluwer. I recently graduated from the University of Chicago with a passion for building practical, intelligent AI systems that actually work in production settings. I’m especially drawn to large language models, agent-based architectures, and AI research applicable to industry settings. I’ve worked on everything from fine-tuning and deploying LLMs at scale to designing modern retrieval pipelines and AI agents that interact with tools, code, and people. I’m particularly interested in the edge cases... where models fail, where embeddings break down, and where a clever system design can make all the difference. I enjoy solving hard problems at the edge of machine learning, data science, and software engineering.",
+    "I'm a passionate data scientist currently working as an AI Engineering Intern at Wolters Kluwer. I recently graduated from the University of Chicago with a passion for building practical, intelligent AI systems that actually work in production settings. I’m especially drawn to large language models, agent-based architectures, and AI research applicable to industry settings. I’ve worked on everything from fine-tuning and deploying LLMs at scale to designing modern retrieval pipelines and AI agents that interact with tools, code, and people. I’m particularly interested in the edge cases... where models fail, where embeddings break down, and where a clever system design can make all the difference. I enjoy solving hard problems at the edge of machine learning, data science, and software engineering.",
   skills: ["Python", "SQL", "Generative AI", "Large Language Models", "AI Agents", "Retrieval Augmented Generation", "Deep Learning", "Natural Language Processing", "Data Science", "Machine Learning", "Data Engineering", "Data Analysis", "Software Development"],
   projects: [
     {
@@ -19,6 +19,7 @@ export const siteConfig = {
       description:
         "Built an AI end-to-end portfolio chatbot from scratch using RAG and hybrid vector search, enabling interactive conversations about my experience and projects. Integrated custom embeddings and retrieval pipelines to showcase real-time, LLM-powered Q&A. Click here to test it out!",
       link: "https://portfolio-frontend-s7al.onrender.com/",
+      linkType: "app",
       skills: ["Python", "Node.js", "LLMs", "RAG", "Hybrid Vector Search", "OCR"],
     },
     {
@@ -42,6 +43,7 @@ export const siteConfig = {
       description:
         "Developed a graph-based document retrieval system at Argonne National Lab using open-source LLMs to navigate government policy documents under strict data privacy constraints. Led the design and implementation of query augmentation, a hybrid retrieval pipeline (semantic + keyword), an agentic interface, and an LLM-assisted document reranking and evaluation system. Project won \"Best in Clinic\" award from the UChicago Data Science Institute out of 20 project submissions in 2024. Click here to watch technical presentation from Phase 1 of the project (June 2024).",
       link: "https://www.linkedin.com/posts/dsi-uchicago_data-science-clinic-students-vincent-chirio-ugcPost-7224131834018680832-V7NB?utm_source=share&utm_medium=member_desktop&rcm=ACoAADLGiiYB407uCLjYJhjS3f35-AijbsSW4XI",
+      linkType: "video",
       skills: ["Python", "Local LLMs", "RAG", "LangChain", "Neo4j", "Milvus", "Data Privacy", "Hybrid Index"],
     },
     {
@@ -55,13 +57,13 @@ export const siteConfig = {
   industryExperience: [
     {
       company: "Wolters Kluwer | UpToDate",
-      title: "AI Engineer (Contract)",
+      title: "AI Engineering Intern",
       dateRange: "July 2025 - Present",
       bullets: [
-        "Decreased hosting costs by 80% by serverlessly deploying autoscaling Large Language Model instances on Google Cloud Run.",
+        "Implemented serverless hosting method for deploying LLMs, allowing for reduced hosting costs and instance autoscaling on Google Cloud Run GPU resources.",
         "Quantized and finetuned open-source Large Language Models for medical use-cases. Enabled deployment on single L4 GPUs.",
         "Built end-to-end Large Language Model evaluation tool, complete with Streamlit UI.",
-        "Worked on a team of 20 developers. Presented projects to technical and non-technical stakeholders.",
+        "Worked on a team of ~15 developers. Presented projects to technical and non-technical stakeholders.",
       ],
     },
     {
@@ -69,8 +71,8 @@ export const siteConfig = {
       title: "Product Software Engineering Intern",
       dateRange: "June 2024 - September 2024",
       bullets: [
-        "Designed AI tool for search quality assurance; tool adopted as primary method for assessing search precision for billion-dollar product.",
-        "Created process for synthetic dataset generation for Large Language Model finetuning. Allowed developers to quickly generate reliable training, testing, and validation datasets.",
+        "Designed AI tool for search quality assurance; tool adopted as a main method for assessing retrieval performance for medical patient education product.",
+        "Created process for synthetic dataset generation for using Large Language Models. Allowed developers to quickly generate reliable training, testing, and validation datasets.",
         "Finetuned and deployed variations of Google Gemini and Gemma 2 on Vertex AI.",
       ],
     },
@@ -155,7 +157,6 @@ export const siteConfig = {
       dateRange: "2021 - 2025",
       achievements: [
         "Graduated Cum Laude with Departmental Honors with 3.78 GPA",
-        "Dean's List in 2021",
         "University Scholar Award recipient",
       ],
     },
